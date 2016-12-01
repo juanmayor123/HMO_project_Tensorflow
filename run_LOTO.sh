@@ -1,4 +1,4 @@
-   for i in {185..712}
+   for i in {370..712}
    do
      echo $i  
      python loto_code_DNN.py test_sub4.csv 0 temp_loto_train.csv 712 $i temp_loto_test.csv
